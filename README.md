@@ -3,10 +3,13 @@ To crop an Image using "Pillow" libray in python 3.8.1
 
 
 To Install the pillow library in command prompt for windows 
+
 CODE:
+
 pip3 install Pillow
 
 CODE:
+
 from PIL import Image        #importing image module from pillow library
 
 im=Image.open(r'Image path') # the 'r' attribute is used to avoid unicodeerror
