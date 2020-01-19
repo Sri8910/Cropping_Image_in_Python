@@ -20,7 +20,13 @@ im1=im.crop((area))          #To crop the image with respective to pixel value m
 
 im1.show()                   # To show the cropped image
 
+OUTPUT:
 
+ORIGINAL IMAGE:
+
+![plitvice lake](https://user-images.githubusercontent.com/48615002/72682927-a1dae880-3af8-11ea-8f6e-197058468647.jpg)
+
+CROPPED IMAHGE:
 
 
 
