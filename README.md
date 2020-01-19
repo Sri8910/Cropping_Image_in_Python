@@ -20,8 +20,7 @@ im1=im.crop((area))          #To crop the image with respective to pixel value m
 
 im1.show()                   # To show the cropped image
 
-OUTPUT:
 
-ORIGINAL IMAGE:
+
 
 
