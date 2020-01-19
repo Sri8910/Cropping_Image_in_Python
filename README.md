@@ -14,7 +14,7 @@ from PIL import Image        #importing image module from pillow library
 
 im=Image.open(r'Image path') # the 'r' attribute is used to avoid unicodeerror
 
-area=(100,175,200,275)       # The four entries represent left,up/top,right,bottom/down pixel coordinates 
+area=(100,200,300,375)       # The four entries represent left,up/top,right,bottom/down pixel coordinates 
 
 im1=im.crop((area))          #To crop the image with respective to pixel value mentioned
 
@@ -26,7 +26,9 @@ ORIGINAL IMAGE:
 
 ![plitvice lake](https://user-images.githubusercontent.com/48615002/72682927-a1dae880-3af8-11ea-8f6e-197058468647.jpg)
 
-CROPPED IMAHGE:
+CROPPED IMAGE:
+
+![Capture](https://user-images.githubusercontent.com/48615002/72683009-93d99780-3af9-11ea-8863-5e8d6685668f.PNG)
 
 
 
